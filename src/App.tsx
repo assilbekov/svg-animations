@@ -1,4 +1,4 @@
-import { CircleStackIcon } from "@heroicons/react/24/outline";
+import { CheckIcon, CircleStackIcon } from "@heroicons/react/24/outline";
 
 export default function App() {
   return (
@@ -12,6 +12,20 @@ export default function App() {
               Every project is a full Postgres database, the world's most
               trusted relational database.
             </p>
+          </div>
+          <div className="flex flex-col font-poppins text-neutral-200 tracking-wide">
+            <span className="flex flex-row gap-2">
+              <CheckIcon className="w-5" />
+              <p>100% portable</p>
+            </span>
+            <span className="flex flex-row gap-2">
+              <CheckIcon className="w-5" />
+              <p>Built-in Auth with RLS</p>
+            </span>
+            <span className="flex flex-row gap-2">
+              <CheckIcon className="w-5" />
+              <p>Easy to extend</p>
+            </span>
           </div>
         </div>
       </section>
